@@ -1,0 +1,402 @@
+body{
+	background-color: #FAFAFA;
+    font-size: 14px;
+	}
+
+.idiomas{
+ padding-right: 5%;
+}
+
+label{
+    color: #FFE335;
+}
+
+a{
+    color: #FFFFFF;
+    }
+
+a:hover{
+    color: #FFE335;
+    text-decoration: none;
+}
+
+.seccion-titulo{
+    background-color: #46505C;
+    padding-top: 7%;
+    padding-bottom: 3%;
+    color: #FFFFFF;
+}
+
+.seccion{
+	padding-top: 1%;
+}
+
+.texto-seccion{
+	padding-top: 2%;
+}
+
+.logo-destino{
+	width: 80%;
+	padding-bottom: 10%;
+	padding-top: 30%;
+}
+
+.logo-destino-bacalar{
+    width: 80%;
+    padding-top: 75%;
+    padding-bottom: 10%;
+}
+
+.logo-destino-playadelcarmen, .logo-destino-tulum, .logo-destino-holbox{
+    width: 60%;
+    padding-top: 30%;
+    padding-bottom: 10%;
+}
+
+.logo-destino-mahahual, .logo-destino-mayakaan{
+    width: 80%;
+    padding-top: 45%;
+    padding-bottom: 10%;
+}
+
+.logo-social{
+	padding: 2%;
+	margin-bottom: 5%;
+}
+
+.logo-social{
+	padding: 2%;
+}
+
+.card{
+ 	margin-top: 5%;
+ 	margin-bottom: 2%;
+ 	box-shadow: 0px 0px 12px #ccc;
+ }
+
+.parallax-caribemexicano{
+	background-image: url('../img/paisajes/caribemexicano.jpg');
+    /* Set a specific height */
+    height: 300px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 2%;
+ }
+
+
+.parallax-cancun{
+	background-image: url('../img/paisajes/Cancunplaya.jpg');
+    /* Set a specific height */
+    height: 300px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+
+ .parallax-rivieramaya{
+	background-image: url('../img/paisajes/RivieraMaya.jpg');
+    /* Set a specific height */
+    height: 300px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+
+  .parallax-rivieramayajazz{
+	background-image: url('../img/paisajes/jazz.jpg');
+    /* Set a specific height */
+    height: 300px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+
+  .parallax-playadelcarmen{
+	background-image: url('../img/paisajes/PlayadelCarmen.jpg');
+    /* Set a specific height */
+    height: 300px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+  .parallax-tulum{
+	background-image: url('../img/paisajes/Tulum2.jpeg');
+    /* Set a specific height */
+    height: 300px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+
+   .parallax-islacozumel{
+	background-image: url('../img/paisajes/cOZUMEL.jpg');
+    /* Set a specific height */
+    height: 300px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+  .parallax-grandcostamaya{
+	background-image: url('../img/paisajes/Bacalar.jpg');
+    /* Set a specific height */
+    height: 300px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+   .parallax-chetumal{
+	background-image: url('../img/paisajes/chetumal2.jpg');
+    /* Set a specific height */
+    height: 300px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+    .parallax-bacalar{
+	background-image: url('../img/paisajes/Bacalar.jpg');
+    /* Set a specific height */
+    height: 300px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+     .parallax-mahahual{
+	background-image: url('../img/paisajes/Mahahual.jpg');
+    /* Set a specific height */
+    height: 300px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+
+     .parallax-holbox{
+	background-image: url('../img/paisajes/holbox.jpg');
+    /* Set a specific height */
+    height: 300px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+     .parallax-islamujeres{
+	background-image: url('../img/paisajes/islamujeres2.jpg');
+    /* Set a specific height */
+    height: 350px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center !important;
+    background-repeat: repeat;
+}
+
+     .parallax-mayakaan{
+	background-image: url('../img/paisajes/Muyil1.jpg');
+    /* Set a specific height */
+    height: 300px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .logo-destino, .logo-destino-playadelcarmen, .logo-destino-tulum, .logo-destino-holbox, .logo-destino-mahahual, .logo-destino-mayakaan{
+	padding-top: 10% !important;
+}
+    .logo-destino-bacalar, .logo-destino-islamujeres{
+        padding-top: 10% !important;
+        pading-bottom: 5% !important;
+}
+
+.parallax-caribemexicano{
+	background-image: url('../img/paisajes/caribemexicano.jpg');
+    /* Set a specific height */
+    height: 300px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: scroll !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 2%;
+ }
+
+
+.parallax-cancun{
+	background-image: url('../img/paisajes/Cancunplaya.jpg');
+    /* Set a specific height */
+    height: 300px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: scroll !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+
+ .parallax-rivieramaya{
+	background-image: url('../img/paisajes/RivieraMaya.jpg');
+    /* Set a specific height */
+    height: 300px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: scroll !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+
+  .parallax-rivieramayajazz{
+	background-image: url('../img/paisajes/jazz.jpg');
+    /* Set a specific height */
+    height: 300px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: scroll !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+
+  .parallax-playadelcarmen{
+	background-image: url('../img/paisajes/PlayadelCarmen.jpg');
+    /* Set a specific height */
+    height: 300px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: scroll !important;
+    background-position: left !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+  .parallax-tulum{
+	background-image: url('../img/paisajes/Tulum2.jpeg');
+    /* Set a specific height */
+    height: 300px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: scroll !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+
+   .parallax-islacozumel{
+	background-image: url('../img/paisajes/cOZUMEL.jpg');
+    /* Set a specific height */
+    height: 300px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: scroll !important;
+    background-position: right !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+  .parallax-grandcostamaya{
+	background-image: url('../img/paisajes/Bacalar.jpg');
+    /* Set a specific height */
+    height: 300px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: scroll !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+   .parallax-chetumal{
+	background-image: url('../img/paisajes/chetumal2.jpg');
+    /* Set a specific height */
+    height: 300px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: scroll !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+    .parallax-bacalar{
+	background-image: url('../img/paisajes/Bacalar2.jpg');
+    /* Set a specific height */
+    height: 300px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: scroll !important;
+    background-position: left !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+
+     .parallax-mahahual{
+	background-image: url('../img/paisajes/Mahahual.jpg');
+    /* Set a specific height */
+    height: 300px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: scroll !important;
+    background-position: center !important;
+    background-repeat: no-repeat;
+ }
+
+     .parallax-holbox{
+	background-image: url('../img/paisajes/holbox.jpg');
+    /* Set a specific height */
+    height: 300px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: scroll !important;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+     .parallax-islamujeres{
+     display: none !important;
+}
+
+     .parallax-mayakaan{
+	background-image: url('../img/paisajes/Muyil1.jpg');
+    /* Set a specific height */
+    height: 300px; 
+    /* Create the parallax scrolling effect */
+    background-attachment: scroll !important;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.responsive{
+   width: 100%;}
+
+}
+
+@media only screen and (min-width: 600px) {
+    .responsive{
+    display:none !important;
+}
+}
